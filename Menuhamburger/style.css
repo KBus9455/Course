@@ -1,0 +1,32 @@
+.wrap {
+    min-height: 150vh;
+
+}
+
+nav {
+    width: 100vw;
+    height: 300px;
+    position: fixed;
+    bottom: -270px;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.fa-arrow-circle-up {
+    color: black;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+nav.active {
+    bottom: 0px;
+}
+
+.fa-arrow-circle-up.active {
+    bottom: 310px;
+    transform: rotate(180deg);
+}
