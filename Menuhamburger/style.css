@@ -13,7 +13,7 @@ nav {
     transition: 0.3s;
 }
 
-.fa-arrow-circle-up {
+.arrow {
     color: black;
     position: fixed;
     right: 10px;
@@ -26,7 +26,7 @@ nav.active {
     bottom: 0px;
 }
 
-.fa-arrow-circle-up.active {
+.arrow.active {
     bottom: 310px;
     transform: rotate(180deg);
 }

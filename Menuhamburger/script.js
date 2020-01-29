@@ -1,4 +1,4 @@
-const Arrow = document.querySelector(".fa-arrow-circle-up");
+const Arrow = document.querySelector(".arrow");
 const Menu = document.querySelector("nav");
 
 Arrow.addEventListener("click", function () {
