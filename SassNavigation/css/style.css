@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li {
+  width: 20vh;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */

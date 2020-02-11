@@ -1,0 +1,22 @@
+* 
+    margin: 0
+    padding: 0
+    
+nav
+    ul
+        +box-flex(row, space-around)
+        list-style: none
+        
+        li
+            width: 20vh
+            a
+                display: block
+                text-decoration: none
+                background-color: black
+                text-align: center
+                color: $fontcolor
+                text-transform: uppercase
+                padding: 10px
+                &:hover
+                    background-color: red
+
