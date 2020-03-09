@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.front {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgb(155, 148, 101), rgba(139, 92, 39, 0.445));
+    border-image-slice: 1;
+    overflow: hidden;
+
+}
+
+img {
+    position: absolute;
+}
+
+.front p {
+    font-family: 'Great Vibes', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.front .title p {
+    font-size: 50px;
+    top: 38%;
+}
+
+.front .name p {
+    font-size: 40px;
+    top: 50%;
+
+}
+
+.front .date p {
+    font-size: 30px;
+    top: 60%;
+}
+
+p span {
+    font-size: 50px;
+    background: -webkit-linear-gradient(90deg, rgb(155, 148, 101), rgba(139, 92, 39, 0.445), rgba(150, 95, 58, 0.411));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.square {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgb(155, 148, 101), rgba(139, 92, 39, 0.445), rgba(150, 95, 58, 0.411));
+    border-image-slice: 1;
+    z-index: 2;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.flowers img:nth-child(1) {
+    max-width: 55%;
+    top: 0%;
+    left: 8%;
+    opacity: 0.6;
+    transform: rotate(300deg);
+}
+
+.flowers img:nth-child(2) {
+    top: 48%;
+    left: 50%;
+    opacity: 0.6;
+    transform: rotate(475deg);
+    max-width: 40%;
+}
+
+.flowers img:nth-child(3) {
+    top: 7%;
+    left: 5%;
+    transform: rotate(230deg);
+    opacity: 0.7;
+    max-width: 40%;
+}
